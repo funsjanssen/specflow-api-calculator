@@ -20,14 +20,14 @@ namespace WebCalculator.Tests.Hooks
         }
 
         [BeforeScenario]
-        public async Task RegisterServices()
+        public void RegisterServices()
         {
             var factory = GetWebApplicationFactory();
 
             _objectContainer.RegisterInstanceAs(factory);
         }
 
-        private WebApplicationFactory<Program> GetWebApplicationFactory() =>
+        private static WebApplicationFactory<Program> GetWebApplicationFactory() =>
             new WebApplicationFactory<Program>()
                 .WithWebHostBuilder(builder =>
                 {
