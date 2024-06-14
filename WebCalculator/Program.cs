@@ -11,4 +11,4 @@ await app.RunAsync();
 #pragma warning disable S1118
 public partial class Program {}
 
-#pragma warning enable S1118
+#pragma warning restore S1118
