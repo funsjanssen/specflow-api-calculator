@@ -4,6 +4,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculator", "WebCalcula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculator.Tests", "WebCalculator.Tests\WebCalculator.Tests.csproj", "{DBE19B97-0BDA-43D8-9AE4-AEA18C3CA4FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{84492600-C258-4A06-9031-2F9E385BA32E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{76FDB9BE-536F-4B00-8BAD-184A6176AE21}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +25,8 @@ Global
 		{DBE19B97-0BDA-43D8-9AE4-AEA18C3CA4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE19B97-0BDA-43D8-9AE4-AEA18C3CA4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBE19B97-0BDA-43D8-9AE4-AEA18C3CA4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76FDB9BE-536F-4B00-8BAD-184A6176AE21} = {84492600-C258-4A06-9031-2F9E385BA32E}
 	EndGlobalSection
 EndGlobal
